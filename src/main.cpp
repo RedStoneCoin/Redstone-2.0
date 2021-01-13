@@ -37,10 +37,10 @@ int main() {
 
     // Set up ports
 
-    int port;
-    printf("Enter port: ");
-    scanf("%d",&port); 
-    server.config.port = port; //server port
+   // int port;
+   // printf("Enter port: ");
+   // scanf("%d",&port); 
+    port = 4401; //server port
     
     vector<int> listOfNodes; //vector of the ports of nodes in the network
     
